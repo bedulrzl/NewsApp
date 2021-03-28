@@ -18,16 +18,17 @@ class AppCoordinator: Coordinator {
         let viewModel = CategoryViewModel()
         viewController.coordinator = self
         viewController.viewModel = viewModel
-        viewModel.didSelectCategory =  { name in
-            self.startSource(with: name)
+        viewModel.didSelectCategory =  { category in
+            self.startSource(with: category)
         }
+        viewController.title = "Category"
         navigationController.pushViewController(viewController, animated: true)
     }
 }
 
 extension AppCoordinator {
-    func startSource(with name: String) {
-        let sourceCoordinator = SourceCoordinator(navigationController: navigationController, name: name)
+    func startSource(with category: String) {
+        let sourceCoordinator = SourceCoordinator(navigationController: navigationController, category: category)
         sourceCoordinator.start()
     }
 }

@@ -10,12 +10,14 @@ import Alamofire
 
 enum APIRouter: APIConfiguration {
     
-    case category(source: String)
+    case source(category: String)
+    case article(id: String)
     
     //MARK: - HTTPMethod
     var method: HTTPMethod {
         switch self {
-        case .category:
+        case .source,
+             .article:
             return .get
         }
     }
@@ -23,14 +25,18 @@ enum APIRouter: APIConfiguration {
     
     var parameters: RequestParams {
         switch self {
-        case .category(let name):
-            return.url(["category": name, "apiKey":"54abb45a32314dc485cf180629b23189", ])
+        case .source(let category):
+            return.url(["category": category, "apiKey":"4a27365f23b24d8eb502b59016e31f07" ])
+        case .article(let id):
+            return.url(["sources": id, "apiKey":"4a27365f23b24d8eb502b59016e31f07" ])
         }
     }
     
     var path: String {
         switch self {
-        case .category:
+        case .source:
+            return "/sources"
+        case .article:
             return "/top-headlines"
         }
     }

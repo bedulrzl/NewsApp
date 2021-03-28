@@ -18,3 +18,9 @@ enum BaseViewModelChange {
     case updateDataModel
     case error(message: String)
 }
+
+enum DetailChanges {
+    case start(String)
+    case finish
+    case failure(String)
+}

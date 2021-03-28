@@ -33,6 +33,17 @@
 		F260EA53260C8F9E00C42CB9 /* SourceCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F260EA51260C8F9E00C42CB9 /* SourceCell.xib */; };
 		F260EA56260C904100C42CB9 /* SourceResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F260EA55260C904100C42CB9 /* SourceResponse.swift */; };
 		F260EA5D260CAC7900C42CB9 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = F260EA5C260CAC7900C42CB9 /* Kingfisher */; };
+		F2A4B205260F4FE8005C4344 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A4B203260F4FE8005C4344 /* DetailVC.swift */; };
+		F2A4B206260F4FE8005C4344 /* DetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2A4B204260F4FE8005C4344 /* DetailVC.xib */; };
+		F2A4B209260F4FF9005C4344 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A4B208260F4FF9005C4344 /* DetailViewModel.swift */; };
+		F2A4B20C260F500A005C4344 /* DetailCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A4B20B260F500A005C4344 /* DetailCoordinator.swift */; };
+		F2C59E13260E22E9002C3FAB /* ArticleResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C59E12260E22E9002C3FAB /* ArticleResponse.swift */; };
+		F2C59E18260E2315002C3FAB /* ArticleTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C59E16260E2315002C3FAB /* ArticleTableVC.swift */; };
+		F2C59E19260E2315002C3FAB /* ArticleTableVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2C59E17260E2315002C3FAB /* ArticleTableVC.xib */; };
+		F2C59E1C260E2325002C3FAB /* ArticleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C59E1B260E2325002C3FAB /* ArticleViewModel.swift */; };
+		F2C59E20260E2378002C3FAB /* ArticleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C59E1E260E2378002C3FAB /* ArticleCell.swift */; };
+		F2C59E21260E2378002C3FAB /* ArticleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2C59E1F260E2378002C3FAB /* ArticleCell.xib */; };
+		F2C59E24260E23EE002C3FAB /* ArticleCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C59E23260E23EE002C3FAB /* ArticleCoordinator.swift */; };
 		F2F5A255260B1C4B003CC252 /* CategoryTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F5A253260B1C4B003CC252 /* CategoryTableVC.swift */; };
 		F2F5A256260B1C4B003CC252 /* CategoryTableVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2F5A254260B1C4B003CC252 /* CategoryTableVC.xib */; };
 		F2F5A259260B1C66003CC252 /* CategoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F5A258260B1C66003CC252 /* CategoryViewModel.swift */; };
@@ -67,6 +78,17 @@
 		F260EA50260C8F9E00C42CB9 /* SourceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceCell.swift; sourceTree = "<group>"; };
 		F260EA51260C8F9E00C42CB9 /* SourceCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SourceCell.xib; sourceTree = "<group>"; };
 		F260EA55260C904100C42CB9 /* SourceResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceResponse.swift; sourceTree = "<group>"; };
+		F2A4B203260F4FE8005C4344 /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+		F2A4B204260F4FE8005C4344 /* DetailVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailVC.xib; sourceTree = "<group>"; };
+		F2A4B208260F4FF9005C4344 /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
+		F2A4B20B260F500A005C4344 /* DetailCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCoordinator.swift; sourceTree = "<group>"; };
+		F2C59E12260E22E9002C3FAB /* ArticleResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleResponse.swift; sourceTree = "<group>"; };
+		F2C59E16260E2315002C3FAB /* ArticleTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleTableVC.swift; sourceTree = "<group>"; };
+		F2C59E17260E2315002C3FAB /* ArticleTableVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ArticleTableVC.xib; sourceTree = "<group>"; };
+		F2C59E1B260E2325002C3FAB /* ArticleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleViewModel.swift; sourceTree = "<group>"; };
+		F2C59E1E260E2378002C3FAB /* ArticleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleCell.swift; sourceTree = "<group>"; };
+		F2C59E1F260E2378002C3FAB /* ArticleCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ArticleCell.xib; sourceTree = "<group>"; };
+		F2C59E23260E23EE002C3FAB /* ArticleCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleCoordinator.swift; sourceTree = "<group>"; };
 		F2F5A253260B1C4B003CC252 /* CategoryTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTableVC.swift; sourceTree = "<group>"; };
 		F2F5A254260B1C4B003CC252 /* CategoryTableVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryTableVC.xib; sourceTree = "<group>"; };
 		F2F5A258260B1C66003CC252 /* CategoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewModel.swift; sourceTree = "<group>"; };
@@ -185,7 +207,7 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
-		F260EA41260C8C5800C42CB9 /* Source */ = {
+		F260EA41260C8C5800C42CB9 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
 				F260EA43260C8C8500C42CB9 /* Models */,
@@ -195,7 +217,7 @@
 				F260EA48260C8D0300C42CB9 /* SourceTableVC.xib */,
 				F260EA4C260C8D1700C42CB9 /* SoruceViewModel.swift */,
 			);
-			path = Source;
+			path = Sources;
 			sourceTree = "<group>";
 		};
 		F260EA42260C8C7000C42CB9 /* Views */ = {
@@ -215,11 +237,54 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		F2A4B1FD260F4E5E005C4344 /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				F2A4B20B260F500A005C4344 /* DetailCoordinator.swift */,
+				F2A4B203260F4FE8005C4344 /* DetailVC.swift */,
+				F2A4B204260F4FE8005C4344 /* DetailVC.xib */,
+				F2A4B208260F4FF9005C4344 /* DetailViewModel.swift */,
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
+		F2C59E0F260E227A002C3FAB /* Articles */ = {
+			isa = PBXGroup;
+			children = (
+				F2C59E10260E22A5002C3FAB /* Models */,
+				F2C59E11260E22AD002C3FAB /* Views */,
+				F2C59E23260E23EE002C3FAB /* ArticleCoordinator.swift */,
+				F2C59E16260E2315002C3FAB /* ArticleTableVC.swift */,
+				F2C59E17260E2315002C3FAB /* ArticleTableVC.xib */,
+				F2C59E1B260E2325002C3FAB /* ArticleViewModel.swift */,
+			);
+			path = Articles;
+			sourceTree = "<group>";
+		};
+		F2C59E10260E22A5002C3FAB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F2C59E12260E22E9002C3FAB /* ArticleResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F2C59E11260E22AD002C3FAB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F2C59E1E260E2378002C3FAB /* ArticleCell.swift */,
+				F2C59E1F260E2378002C3FAB /* ArticleCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		F2F5A250260B1BD9003CC252 /* Moduls */ = {
 			isa = PBXGroup;
 			children = (
 				F2F5A251260B1BED003CC252 /* Category */,
-				F260EA41260C8C5800C42CB9 /* Source */,
+				F260EA41260C8C5800C42CB9 /* Sources */,
+				F2C59E0F260E227A002C3FAB /* Articles */,
+				F2A4B1FD260F4E5E005C4344 /* Details */,
 			);
 			path = Moduls;
 			sourceTree = "<group>";
@@ -302,9 +367,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				F260EA53260C8F9E00C42CB9 /* SourceCell.xib in Resources */,
+				F2A4B206260F4FE8005C4344 /* DetailVC.xib in Resources */,
 				F244AAAE260B18720041636F /* LaunchScreen.storyboard in Resources */,
 				F244AAAB260B18720041636F /* Assets.xcassets in Resources */,
 				F2F5A256260B1C4B003CC252 /* CategoryTableVC.xib in Resources */,
+				F2C59E21260E2378002C3FAB /* ArticleCell.xib in Resources */,
+				F2C59E19260E2315002C3FAB /* ArticleTableVC.xib in Resources */,
 				F260EA4A260C8D0300C42CB9 /* SourceTableVC.xib in Resources */,
 				F260EA11260B3E3800C42CB9 /* CategoryCell.xib in Resources */,
 			);
@@ -319,17 +387,24 @@
 			files = (
 				F244AABF260B1A170041636F /* APIConfiguration.swift in Sources */,
 				F2F5A25C260B1CA9003CC252 /* Coordinator.swift in Sources */,
+				F2C59E18260E2315002C3FAB /* ArticleTableVC.swift in Sources */,
 				F260EA56260C904100C42CB9 /* SourceResponse.swift in Sources */,
+				F2A4B205260F4FE8005C4344 /* DetailVC.swift in Sources */,
 				F260EA4D260C8D1700C42CB9 /* SoruceViewModel.swift in Sources */,
 				F2F5A259260B1C66003CC252 /* CategoryViewModel.swift in Sources */,
 				F244AAA2260B186D0041636F /* AppDelegate.swift in Sources */,
+				F2A4B20C260F500A005C4344 /* DetailCoordinator.swift in Sources */,
+				F2C59E24260E23EE002C3FAB /* ArticleCoordinator.swift in Sources */,
 				F260EA14260B40F200C42CB9 /* Constants.swift in Sources */,
 				F260EA10260B3E3800C42CB9 /* CategoryCell.swift in Sources */,
 				F260EA37260C75EA00C42CB9 /* UIView+Extension.swift in Sources */,
+				F2A4B209260F4FF9005C4344 /* DetailViewModel.swift in Sources */,
 				F260EA23260B50F200C42CB9 /* BaseViewModel.swift in Sources */,
 				F260EA1B260B42D500C42CB9 /* APIRouter.swift in Sources */,
+				F2C59E13260E22E9002C3FAB /* ArticleResponse.swift in Sources */,
 				F260EA3F260C894C00C42CB9 /* NSObject+Extensions.swift in Sources */,
 				F260EA36260C75EA00C42CB9 /* Date+Extensions.swift in Sources */,
+				F2C59E1C260E2325002C3FAB /* ArticleViewModel.swift in Sources */,
 				F260EA3E260C894C00C42CB9 /* UITableView+extensions.swift in Sources */,
 				F260EA35260C75EA00C42CB9 /* Int+Extensions.swift in Sources */,
 				F2F5A255260B1C4B003CC252 /* CategoryTableVC.swift in Sources */,
@@ -337,6 +412,7 @@
 				F260EA0B260B3DAD00C42CB9 /* CategoryResponse.swift in Sources */,
 				F260EA49260C8D0300C42CB9 /* SourceTableVC.swift in Sources */,
 				F2F5A25F260B1CBB003CC252 /* AppCoordinator.swift in Sources */,
+				F2C59E20260E2378002C3FAB /* ArticleCell.swift in Sources */,
 				F260EA1E260B49E100C42CB9 /* APIClient.swift in Sources */,
 				F260EA52260C8F9E00C42CB9 /* SourceCell.swift in Sources */,
 				F260EA45260C8C9A00C42CB9 /* SourceCoordinator.swift in Sources */,
