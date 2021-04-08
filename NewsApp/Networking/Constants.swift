@@ -5,12 +5,16 @@
 //  Created by Aprizal on 24/3/21.
 //
 
+
+//https://reqres.in/api/users?page=1
+
 import Foundation
 import Alamofire
 
 struct Constants {
     struct ProductionServer {
         static let baseURL = "https://newsapi.org/v2"
+        static let baseURLtest = "https://reqres.in/api"
     }
 }
 

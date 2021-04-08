@@ -54,4 +54,23 @@ class APIClient {
             }
         }
     }
+    
+    func requestTest<T: Codable>(route: APIRouter, completion: @escaping (Swift.Result<T, Error>) -> Void) {
+        if let request = try? route.asURLRequestTest() {
+            AF.request(request).responseData { (response) in
+                print(response.request?.url?.absoluteString)
+                switch response.result {
+                case .success(let value):
+                    let decoder = JSONDecoder()
+                    let model = try? decoder.decode(T.self, from: value)
+                    if let model = model {
+                        completion(.success(model))
+                    }
+                case .failure(let error):
+                    print("\(#line), \(#function), \(error.failureReason)")
+                    completion(.failure(error))
+                }
+            }
+        }
+    }
 }

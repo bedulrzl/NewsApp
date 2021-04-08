@@ -22,6 +22,10 @@ class AppCoordinator: Coordinator {
             self.startSource(with: category)
         }
         viewController.title = "Category"
+        viewController.navigationController?.navigationBar.backgroundColor = UIColor(.green)
+        viewController.navigationController?.navigationBar.tintColor = UIColor(.white)
+        
+        viewController.navigationController?.navigationBar.prefersLargeTitles = true
         navigationController.pushViewController(viewController, animated: true)
     }
 }

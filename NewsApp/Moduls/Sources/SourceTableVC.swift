@@ -26,6 +26,8 @@ class SourceTableVC: UITableViewController {
         super.viewDidLoad()
         tableView.register(cellType: SourceCell.self)
         tableView.tableFooterView = UIView()
+        
+        navigationItem.largeTitleDisplayMode = .never
     
         searchController.searchResultsUpdater = self
         searchController.delegate = self
@@ -102,7 +104,7 @@ class SourceTableVC: UITableViewController {
     }
 
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 130
+        return 135
     }
     
     

@@ -33,6 +33,7 @@ class CategoryViewModel: BaseViewModel {
    
     func getData() {
         self.category.append(contentsOf: data.categorys)
+        
         print(category)
     }
     

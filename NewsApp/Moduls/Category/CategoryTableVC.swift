@@ -14,8 +14,12 @@ class CategoryTableVC: UITableViewController {
         
     override func viewDidLoad() {
         super.viewDidLoad()
+     
+        self.navigationController?.navigationBar.prefersLargeTitles = true
+
         tableView.register(cellType: CategoryCell.self)
         tableView.tableFooterView = UIView()
+        tableView.rowHeight = 80
         viewModel?.changeHandler = { change in
             switch change {
             case .updateDataModel:
