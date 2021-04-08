@@ -8,6 +8,6 @@ https://newsapi.org/
 ## Feature
 	Category
 	Source
-  Articel
-  Detail use WebView
+	Articel
+	Detail use WebView
 
